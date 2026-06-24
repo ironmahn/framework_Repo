@@ -30,6 +30,12 @@ public class ContactTest {
 	public void deleteContactTest() {
 		System.out.println("Execute deleteContactTest");
 	}
+	
+	@Test
+
+	public void addContactTest() {
+		System.out.println("Execute addContactTest");
+	}
 
 
 }
