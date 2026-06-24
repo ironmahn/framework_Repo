@@ -82,7 +82,7 @@ public class CreateOrganizationTest extends BaseTest {
 
 		driver.findElement(By.name("accountname")).sendKeys(orgName);
 
-		WebElement wbsel = driver.findElement(By.name("indstry"));
+		WebElement wbsel = driver.findElement(By.name("industry"));
 		Select sel = new Select(wbsel);
 		sel.selectByVisibleText(industry);
 
